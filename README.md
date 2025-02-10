@@ -21,7 +21,7 @@
         .player {
             width: 40px;
             height: 40px;
-            background-color: lime;
+            background: url('player-ship.png') no-repeat center/contain;
             position: absolute;
             bottom: 10px;
             left: 280px;
@@ -29,7 +29,7 @@
         .enemy {
             width: 30px;
             height: 30px;
-            background-color: red;
+            background: url('enemy-ship.png') no-repeat center/contain;
             position: absolute;
         }
         .bullet {
